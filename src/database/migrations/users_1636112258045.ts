@@ -7,7 +7,10 @@ export default class Users_1636112258046 extends BaseMigration {
   public async up (schema: Schema): Promise<any> {
     return schema.createTable(this.tableName, (table: Table) => {
       table.string('id').primary()
-      // Your database migration here
+      table.string('username')
+      table.string('user_id').unique()
+      table.integer('level')
+      table.integer('xp')
     })
   }
 

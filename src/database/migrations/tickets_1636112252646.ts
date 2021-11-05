@@ -7,7 +7,8 @@ export default class Tickets_1636112252647 extends BaseMigration {
   public async up (schema: Schema): Promise<any> {
     return schema.createTable(this.tableName, (table: Table) => {
       table.string('id').primary()
-      // Your database migration here
+      table.string('ticket_id').unique()
+      table.string('user_id').unique()
     })
   }
 
