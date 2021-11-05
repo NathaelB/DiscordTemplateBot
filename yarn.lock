@@ -116,10 +116,10 @@
     js-yaml "^4.1.0"
     module-alias "^2.2.2"
 
-"@discord-factory/storage-next@^2.1.3":
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/@discord-factory/storage-next/-/storage-next-2.1.3.tgz#1bd823cc4c657b6744b539aea5290998a52bac60"
-  integrity sha512-xAEok2qHEQdBS3d9/GM/Kor8zk8a+PxNNlgilq5yUak42ry8CvirXxOvu9asXPeesVX1/Rw06UojygcKGxD4Og==
+"@discord-factory/storage-next@^2.1.5":
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/@discord-factory/storage-next/-/storage-next-2.1.5.tgz#efd6ecf2218dc93c5c296817b2556d3172116ebc"
+  integrity sha512-MKDmqn53YTnbwT3TMXvGqnA2MtW5w2jHe81y9lPdwTGCvIYnyoFwBfN7RZQvfSxP4+pzs7gHU+UDJGwGktlYJQ==
   dependencies:
     "@discord-factory/core-next" "2.0.0"
     "@leadcodedev/logger" "^1.0.0"
